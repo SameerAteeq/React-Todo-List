@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.start {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 4px;
+    width: 300px;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+.add {
+    color: black;
+    background-color: burlywood;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add:hover {
+    background-color: transparent;
+}
